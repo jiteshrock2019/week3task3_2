@@ -1,0 +1,283 @@
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap');
+ html,body{
+     height: 100%;
+    width: 100%;
+ scroll-behavior: smooth;
+    
+ }
+ 
+ 
+ /*home section  */
+ 
+#home{
+    background-color:#658cff;
+    width: 100%; 
+border-bottom-right-radius: 50% 7%;
+border-bottom-left-radius: 50% 7%;  
+
+}
+.navbar-brand{
+color:white !important;
+font-size:17px !important;
+font-weight:600;
+font-family: 'Raleway', sans-serif;
+}
+  
+.navbar-nav li a{
+   color:white !important;
+  margin-right:20px;
+   font-size:12px;
+font-weight:500;
+letter-spacing:1px;
+   text-transform: uppercase;
+ 
+
+}
+ 
+.navbar-nav li a:hover{
+   color:#8fcfd1 !important;
+}
+#home .fa
+{
+font-size:20px;
+padding-top:10px;
+}
+ .d
+{
+padding-left:35px !important;
+}
+#home h1
+{
+color:white;
+font-weight:700;
+font-family: 'Lemonada', cursive;
+}
+#home p
+{
+color:white;
+font-size:14px;
+
+}
+.h-cont button
+{
+padding:7px 25px;
+color:white;
+font-size:14px;
+font-weight:600 !important;
+}
+.b1
+{
+background-color:#fb6b44 !important;
+}
+.b2
+{
+background-color:#4366c6 !important;
+}
+
+ 
+ 
+.custom-toggler .navbar-toggler-icon { 
+			background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#658cff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+width:30px;
+height:30px;
+} 
+ /*feature section  */
+
+#feature h2
+{
+color:#658cff;
+font-size:24px;
+font-weight:600;
+}
+#feature p
+{
+color:#dedede;
+font-size:13px;
+}
+#feature .fa
+{
+color:#f3957a;
+font-size:33px !important;
+padding:20 5px;
+}
+#feature .box
+{
+display:inline !important;
+padding-left:20px;
+}
+#feature .box span
+{
+color:black;
+font-size:19px;
+font-weight:500;
+padding-right:20px !important;
+}
+#feature .box p
+{
+padding-left:50px !important;
+}
+ 
+  /* widget section  */
+#widget h2
+{
+color:#658cff;
+font-size:24px;
+font-weight:600;
+}
+#widget p
+{
+color:#dedede;
+font-size:13px;
+}
+  /* screenshot section  */
+#screenshot h2
+{
+color:#658cff;
+font-size:24px;
+font-weight:600;
+}
+#screenshot p
+{
+color:#dedede;
+font-size:13px;
+}
+#screenshot .cl-cont
+{
+max-width:60%;
+color:rgba(0,0,0,0.7);
+}
+  
+/* Review  section  */ 
+#review h2
+{
+color:#658cff;
+font-size:24px;
+font-weight:600;
+}
+#review p
+{
+color:#dedede;
+font-size:13px;
+}
+#review .fa
+{
+color:#658cff;
+font-size:25px;
+font-weight:700;
+}
+#review .cl-cont
+{
+font-size:20px;
+}
+#review span
+{
+color:rgba(0,0,0,0.7);;
+font-weight:300;
+}
+#review .fa-quote-right
+{
+padding-left:300px !important;
+
+}
+/* footer1  section  */ 
+#footer1
+{
+background-color:#658cff;
+}
+#footer1 h2
+{
+color:white;
+font-weight:600;
+}
+#footer1 p
+{
+color:white;
+font-weight:500;
+}
+#footer1 button
+{
+color:white;
+background-color:black;
+font-weight:600;
+}
+ 
+#footer1 .fa
+{
+font-size:26px;
+padding-right:5px;
+}
+#footer1 .fa-play
+{
+color:#65a8b7;
+}
+#footer2
+{
+background-color:#343855;
+}
+#footer2 hr
+{
+background-color:grey !important;
+}
+.ft2 div
+{
+color:rgba(255,255,255,0.7);
+padding:10px 20px;
+}
+.ft2 div span
+{
+color:#658cff;
+font-size:22px;
+font-weight:700;
+}
+.ft2 div .fn
+{
+color:#fb6b44 !important;
+}
+.ft2 div .fa
+{
+font-size:25px;
+padding-right:10px;
+}#footer2 .f-cont
+{
+color:rgba(255,255,255,0.3);
+}
+
+@media (max-width:768px)
+{
+ .d
+{
+padding-left:2px !important;
+}
+#m-cont
+{
+padding-left:0px !important;
+}
+  #review .fa-quote-right
+{
+padding-left:180px !important;
+}
+#screenshot .cl-cont
+{
+max-width:80%;
+text-align:justify;
+}
+#sun{
+padding-left:0px !important;
+}
+#ft
+{
+width:90% !important;
+}
+
+ 
+}
+
+
+
+
+
+
+
+
